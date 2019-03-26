@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
 *{
     color: red;
 } 
@@ -6,7 +7,7 @@
     color:blue;
 }
 #parared
-{
+{    font-family: 'Germania One', cursive;
     color:red;
 
 }
@@ -56,4 +57,28 @@ p.bleu {
 p.parableu
 {
     text-align: right;
+}
+p#parared
+{
+    background-color: rgba(255,0,0,0.5);
+}
+html
+{
+    background-image: url("../ENOVO.jpeg");
+}
+.bord
+{
+    border-radius: 15px;
+}
+.bord
+{
+    margin: 15px;
+}
+li 
+{
+    display: inline;
+}
+div{
+    background-color: black;
+    margin: 15px;
 }
